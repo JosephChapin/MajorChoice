@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+    <link href='style.css' rel='stylesheet'>
+    <title>Major Choice - Home</title>
+    <link rel="shortcut icon" href="http://sstatic.net/stackoverflow/img/favicon.ico">
+
+  </head>
+
+  <body>
+
+  	<!-- menu -->
+    <div class="menu">
+
+      <ul>
+        <li class="reg">Register</li>
+        <li class="log">Login</li>
+      </ul>
+
+    </div>
+
+    <!-- main -->
+    <div class="main">
+
+      <div class="title">
+        Major Choice
+      </div>
+
+      <div class="info">
+        <h1>Major Choice Coming Soon!</h1>
+        <hr>
+         <img src="demo.png" alt="Demo">
+      </div>
+
+      <div class="register">
+        <form action="register_process.php" method="post">
+          <label for="email">Email:</label>
+          <input type="text" id="email" name="email" placeholder="Enter your email address">
+          <br>
+          <label for="password">Password:</label>
+          <input type="text" name="password" placeholder="Enter your password">
+          <br>
+          <label for="password">Confirm Password:</label>
+          <input type="text" name="cpassword" placeholder="Confirm your password">
+          <br>
+          <br>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+
+      <div class="login">
+        <form action="login_process.php" method="post">
+          <label for="email">Email:</label>
+          <input type="text" id="email" name="email" placeholder="Enter your email address">
+          <br>
+          <label for="password">Password:</label>
+          <input type="text" name="password" placeholder="Enter your password">
+          <br>
+          <br>
+          <input type="submit" value="Login">
+        </form>
+      </div>
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="app.js"></script>
+
+    </div>
+
+  </body>
+
+</html>
